@@ -1,18 +1,48 @@
 # DocSpot
 
-Welcome to **DocSpot**!  
-DocSpot is a project aimed at making documentation, collaboration, and deployment easy and efficient for modern teams.  
-This repository contains both the frontend and backend code powering DocSpot.
+🆔 **Team ID:** LTVIP2025TMID55161
+
+## 🏥 Overview
+
+DocSpot is a modern, full-stack web application for seamless and secure management of doctor appointments.  
+Built with the MERN stack, DocSpot simplifies healthcare appointment scheduling and management for patients, doctors, and administrators.  
+The system is designed with a responsive, user-friendly interface and robust backend APIs to deliver an efficient digital healthcare experience.
 
 ---
 
-## 🚀 Features
+## ✨ Key Features
 
-- Modern single-page application using React.
-- Easy development workflow with Create React App.
-- Powerful build tooling for production-ready deployments.
-- Extensible structure to support further enhancements.
-- Ready-to-use scripts for development, testing, and building.
+### 👤 Patient Portal
+- Secure patient registration and login
+- Search doctors by specialization and location
+- Book, cancel, or reschedule appointments
+- View appointment history and receive notifications
+
+### 🩺 Doctor Portal
+- Doctor registration and profile management
+- Manage availability and appointment slots
+- View and update appointment statuses
+- Access patient information
+
+### 🛡️ Admin Portal
+- Approve or reject doctor applications
+- View all appointments in the system
+
+### 🔐 General System Features
+- JWT-based authentication and role-based authorization
+- Responsive and mobile-friendly UI
+- Real-time feedback and notifications
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer      | Technologies                                   |
+|------------|-----------------------------------------------|
+| Frontend   | React.js, Axios, Ant Design, Bootstrap        |
+| Backend    | Node.js, Express.js                           |
+| Database   | MongoDB                                       |
+| Auth       | JWT, bcrypt                                   |
 
 ---
 
@@ -20,10 +50,9 @@ This repository contains both the frontend and backend code powering DocSpot.
 
 ```
 /
-├── frontend/         # React-based SPA for DocSpot's UI
-│   └── ...           # Components, assets, etc.
-├── backend/          # (If present) API and backend logic
-└── ...
+├── frontend/    # React SPA (User, Doctor, Admin portals)
+├── backend/     # Express.js backend (APIs, controllers, models)
+└── ...          # Configs, documentation, etc.
 ```
 
 ---
@@ -46,7 +75,46 @@ Inside the `frontend/` directory, you can run:
 For more, see [Create React App docs](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ---
+## ⚙️ Installation & Setup
 
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Meghana-058/DocSpot
+   ```
+2. **Install dependencies:**
+   - For backend:
+     ```bash
+     cd backend
+     npm install
+     ```
+   - For frontend:
+     ```bash
+     cd ../frontend
+     npm install
+     ```
+3. **Set up environment variables:**  
+   Create a `.env` file in the `backend/` directory.  
+   Configure MongoDB connection, JWT secret, and other required settings.
+
+4. **Start development servers:**
+   - Backend:
+     ```bash
+     npm start
+     ```
+   - Frontend (in a new terminal):
+     ```bash
+     npm start
+     ```
+
+---
+## 🚀 Usage
+
+- Visit `http://localhost:3000` in your browser.
+- Register or log in as a Patient or Doctor.
+- Admin can log in via the admin dashboard.
+- Explore appointment booking, doctor application, management, and more.
+
+---
 ## 📚 Learn More
 
 - [React documentation](https://reactjs.org/)
@@ -56,15 +124,15 @@ For more, see [Create React App docs](https://facebook.github.io/create-react-ap
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/Meghana-058/DocSpot/issues).
+Contributions, issues, and feature requests are welcome.  
+Check out the [issues page](https://github.com/Meghana-058/DocSpot/issues) to get started.
 
 ---
 
 ## 📝 License
 
-This project is currently unlicensed.  
-If you would like to use it, please open an issue to discuss licensing.
+Currently unlicensed.  
+Open an issue to discuss licensing if you wish to use this project.
 
 ---
 
@@ -72,3 +140,10 @@ If you would like to use it, please open an issue to discuss licensing.
 
 - [Meghana-058](https://github.com/Meghana-058)
 
+---
+
+> _DocSpot: Making healthcare appointment management seamless for everyone._
+
+---
+
+**[View more or contribute on GitHub →](https://github.com/Meghana-058/DocSpot)**
